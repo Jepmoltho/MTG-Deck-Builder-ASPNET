@@ -1,0 +1,18 @@
+{
+  "trailingComma": "all",
+  "singleQuote": true,
+  "overrides": [
+    {
+      "files": "*.cs",
+      "options": {
+        "parser": "csharp"
+      }
+    },
+    {
+      "files": "*.cshtml",
+      "options": {
+        "parser": "html"
+      }
+    }
+  ]
+}
